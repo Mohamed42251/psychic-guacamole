@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+    padding: 0;
+    background: url(12.jpg);
+    background-size: cover;
+    background-position: center;
+	font-family:"segoe ui light";
+}
+.Hotels{
+	width:90%;
+	margin:auto;
+	
+}
+.Hotels .overlay{
+	overflow:hidden;
+	background-color:rgba(0,0,0,0.6);
+	height:100vh;;
+}
+.Hotels .caption h1{
+	font-size:70px;
+	text-align:center;
+	color:#fff;
+}
+.Hotel{
+	
+	float:left;
+	text-align:center;
+	margin:auto;
+	color:#fff;
+	margin-top:150px;
+}
+.Hotel img{
+	
+	width:90%;
+	
+}
+.Hotel .brdr{
+	width:25%;
+	height:2px;
+	background-color:#ccc;
+	margin:auto;
+}
+.btns a {
+	text-decoration:none;
+	color:#fff;
+	border: 1px solid #fff;
+	padding: 18px 25px;
+	font-weight:bold;
+	border-radius: 5px;
+	margin:0 5px;
+	transition: background-color 0.4s;
+}
+
+.btns a:hover{
+	background-color:aqua;
+	color:#000;
+}
+	
+	
+}
+.clearfix{
+	clear: both;
+}
